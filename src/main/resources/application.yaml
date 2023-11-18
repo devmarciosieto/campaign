@@ -2,7 +2,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://root:root@localhost:27017/campaigns
+      uri: mongodb://root:root@localhost:27017/campaigns?authSource=admin
       min-connection-pool-size: 5
       max-connection-pool-size: 20
 
