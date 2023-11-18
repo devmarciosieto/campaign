@@ -1,0 +1,16 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/campaigns
+      min-connection-pool-size: 5
+      max-connection-pool-size: 20
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
